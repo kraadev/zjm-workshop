@@ -214,25 +214,25 @@ http://localhost/zjm/admin/
 
 ## Home
 
-![](docs/home.png)
+![](docs/sszjm.png)
 
 ---
 
 ## Services
 
-![](docs/layanan.png)
+![](docs/servicezjm.png)
 
 ---
 
 ## Products
 
-![](docs/produk.png)
+![](docs/productzjm.png)
 
 ---
 
 ## Admin Dashboard
 
-![](docs/admin.png)
+![](docs/sszjmadmin.png)
 
 ---
 
