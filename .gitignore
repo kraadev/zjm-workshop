@@ -1,0 +1,39 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+*.temp
+
+# Cache
+.cache/
+
+# Environment
+.env
+
+# Composer
+/vendor/
+
+# Node
+node_modules/
+
+# Uploads (jika tidak ingin ikut Git)
+uploads/
+
+# XAMPP
+xampp/
+
+# Laragon
+laragon/
+
+# Backup
+*.bak
+*.zip
