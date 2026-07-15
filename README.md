@@ -1,184 +1,341 @@
 <div align="center">
 
 # 🚗 ZJM Workshop
-### Website Profil & Layanan Bengkel Zara Jaya Motor
 
-Website resmi untuk memperkenalkan layanan, informasi, dan identitas **Zara Jaya Motor** secara modern, responsif, dan mudah diakses.
+### Company Profile & Workshop Management Website
 
 <p align="center">
-  <a href="https://zjm.lovestoblog.com">
-    <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Website-blue?style=for-the-badge">
-  </a>
-  <img src="https://img.shields.io/badge/Status-Production-success?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Responsive-Yes-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Open_Source-❤-red?style=for-the-badge">
+
+Website company profile modern berbasis **PHP Native** dan **MySQL** yang dikembangkan untuk **Zara Jaya Motor** sebagai media promosi digital sekaligus sistem pengelolaan informasi bengkel.
+
 </p>
+
+<p>
+
+![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![License](https://img.shields.io/github/license/kraadev/zjm-workshop?style=for-the-badge)
+![Repo Size](https://img.shields.io/github/repo-size/kraadev/zjm-workshop?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/kraadev/zjm-workshop?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/kraadev/zjm-workshop?style=for-the-badge)
+
+</p>
+
+<a href="https://zjm.lovestoblog.com">
+<img src="https://img.shields.io/badge/🌐 Live Demo-Visit Website-blue?style=for-the-badge">
+</a>
 
 </div>
 
 ---
 
-## 📖 Tentang Project
+# 📖 About
 
-**ZJM Workshop** merupakan website company profile milik **Zara Jaya Motor**, sebuah bengkel motor yang menyediakan berbagai layanan servis, perawatan, hingga penjualan suku cadang.
+ZJM Workshop merupakan website **Company Profile** milik **Zara Jaya Motor** yang dikembangkan menggunakan **PHP Native** dan **MySQL**.
 
-Website ini dirancang dengan tampilan modern, cepat, dan responsif sehingga pelanggan dapat memperoleh informasi mengenai bengkel dengan mudah melalui berbagai perangkat.
-
----
-
-## ✨ Fitur
-
-- 🏠 Landing Page Modern
-- 👨‍🔧 Informasi Bengkel
-- 🔧 Daftar Layanan Service
-- 🛵 Informasi Sparepart
-- 📍 Lokasi Bengkel (Google Maps)
-- 📞 Informasi Kontak
-- 📱 Responsive di Desktop & Mobile
-- ⚡ Performa Website Ringan
+Website ini bertujuan untuk memperkenalkan layanan bengkel, produk, profil perusahaan, serta menyediakan dashboard admin untuk mengelola seluruh konten website melalui antarmuka yang sederhana.
 
 ---
 
-## 🖥️ Preview
+# 🖼 Preview
 
 <p align="center">
-<img src="sszjm.png" width="100%">
+<img src="sszjm.png">
 </p>
 
+---
+
+# ✨ Features
+
+### 👨‍🔧 Public Website
+
+- Landing Page
+- About Us
+- Workshop Services
+- Product Catalog
+- Product Details
+- Service Details
+- Contact Page
+- Google Maps Integration
+- Responsive Layout
+
+### 🔐 Admin Panel
+
+- Authentication
+- Dashboard
+- Product Management
+- Service Management
+- Website Content Management
 
 ---
 
-## 🌐 Live Website
+# 🛠 Tech Stack
 
-👉 **https://zjm.lovestoblog.com**
-
----
-
-## 🚀 Tech Stack
-
-| Frontend | Styling | Hosting |
-|-----------|----------|----------|
-| HTML | CSS | InfinityFree |
-| JavaScript | Bootstrap | Cloudflare |
+| Category | Technology |
+|-----------|------------|
+| Language | PHP Native |
+| Database | MySQL |
+| Frontend | HTML5, CSS3, JavaScript |
+| CSS Framework | Bootstrap |
+| Hosting | InfinityFree |
 
 ---
 
-## 📂 Struktur Project
+# 🏗 System Architecture
 
+```text
+Client
+   │
+   ▼
+Browser
+   │
+   ▼
+PHP Native Application
+   │
+   ├── Admin Panel
+   ├── User Pages
+   └── Configuration
+   │
+   ▼
+MySQL Database
 ```
-zjm-workshop/
+
+---
+
+# 📂 Directory Structure
+
+```text
+zjm-workshop
 │
-├── assets/
-├── css/
-├── js/
-├── images/
-├── index.html
-├── about.html
-├── services.html
-├── contact.html
-└── README.md
+├── docs/
+│   ├── home.png
+│   ├── layanan.png
+│   ├── produk.png
+│   └── admin.png
+│
+├── zjm/
+│   ├── admin/
+│   ├── config/
+│   ├── image/
+│   ├── about.php
+│   ├── detail_layanan.php
+│   ├── detail_produk.php
+│   ├── index.php
+│   ├── kontak.php
+│   ├── layanan.php
+│   └── produk.php
+│
+├── bengkel.sql
+├── LICENSE
+├── .gitignore
+├── README.md
+└── sszjm.png
 ```
 
 ---
 
-## 📱 Responsive Design
+# 🚀 Installation
 
-Website telah dioptimalkan untuk berbagai ukuran layar.
-
-✅ Desktop
-
-✅ Laptop
-
-✅ Tablet
-
-✅ Smartphone
-
----
-
-## 🎯 Tujuan Project
-
-Project ini dibuat untuk:
-
-- Memperkenalkan Zara Jaya Motor secara digital
-- Mempermudah pelanggan memperoleh informasi layanan
-- Meningkatkan branding bengkel
-- Menampilkan identitas usaha yang profesional
-
----
-
-## 📸 Halaman Website
-
-- Home
-- Tentang Kami
-- Layanan
-- Galeri
-- Kontak
-- Lokasi
-
----
-
-## ⚙️ Cara Menjalankan
-
-Clone repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/kraadev/zjm-workshop.git
 ```
 
-Masuk ke folder project
+---
 
-```bash
-cd zjm-workshop
+## Move Project
+
+### XAMPP
+
+```
+htdocs/zjm
 ```
 
-Jalankan menggunakan Live Server atau buka langsung file
+### Laragon
 
-```text
-index.html
+```
+www/zjm
 ```
 
 ---
 
-## 🤝 Kontribusi
+## Import Database
 
-Kontribusi selalu diterima.
+Buat database
 
-1. Fork Repository
-2. Buat Branch Baru
-
-```bash
-git checkout -b feature/nama-feature
+```
+bengkel
 ```
 
-3. Commit
+Import
+
+```
+bengkel.sql
+```
+
+---
+
+## Configure Database
+
+Edit file konfigurasi pada
+
+```
+zjm/config/
+```
+
+```php
+$host = "localhost";
+$user = "root";
+$password = "";
+$database = "bengkel";
+```
+
+---
+
+## Run
+
+### User
+
+```
+http://localhost/zjm/
+```
+
+### Admin
+
+```
+http://localhost/zjm/admin/
+```
+
+---
+
+# 📸 Screenshots
+
+## Home
+
+![](docs/home.png)
+
+---
+
+## Services
+
+![](docs/layanan.png)
+
+---
+
+## Products
+
+![](docs/produk.png)
+
+---
+
+## Admin Dashboard
+
+![](docs/admin.png)
+
+---
+
+# 🗄 Database
+
+Database tersedia pada repository.
+
+```
+bengkel.sql
+```
+
+---
+
+# 🌐 Live Demo
+
+https://zjm.lovestoblog.com
+
+---
+
+# 🛣 Roadmap
+
+- [x] Landing Page
+- [x] Product Management
+- [x] Service Management
+- [x] Contact Page
+- [x] Google Maps Integration
+- [x] Responsive Design
+- [ ] Search Feature
+- [ ] Customer Testimonials
+- [ ] Booking Service
+- [ ] WhatsApp Integration
+- [ ] SEO Optimization
+- [ ] Analytics Dashboard
+
+---
+
+# 🚀 Future Improvements
+
+- REST API
+- AJAX CRUD
+- Authentication Enhancement
+- Role Based Access Control
+- Image Optimization
+- Email Notification
+- Progressive Web App (PWA)
+- Dark Mode
+- Better UI/UX
+- Performance Optimization
+
+---
+
+# 🤝 Contributing
+
+1. Fork repository
+
+2. Create feature branch
 
 ```bash
-git commit -m "Menambahkan fitur baru"
+git checkout -b feature/new-feature
+```
+
+3. Commit changes
+
+```bash
+git commit -m "Add new feature"
 ```
 
 4. Push
 
 ```bash
-git push origin feature/nama-feature
+git push origin feature/new-feature
 ```
 
-5. Buat Pull Request
+5. Open Pull Request
 
 ---
 
-## ⭐ Dukungan
+# 📜 License
 
-Apabila project ini bermanfaat, jangan lupa berikan ⭐ pada repository ini.
+Distributed under the **MIT License**.
+
+See `LICENSE` for more information.
+
+---
+
+# 👨‍💻 Author
+
+**Kraadev**
+
+GitHub
+
+https://github.com/kraadev
+
+Website
+
+https://zjm.lovestoblog.com
 
 ---
 
 <div align="center">
 
-### Dibuat dengan ❤️ oleh
+### ⭐ Don't forget to leave a Star if you like this project!
 
-## Kraadev
-
-Website:
-### https://zjm.lovestoblog.com
+Made with ❤️ by Kraadev
 
 </div>
